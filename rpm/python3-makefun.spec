@@ -48,7 +48,8 @@ Small library to dynamically create python functions.
 %setup -q -n %{name}-%{version}/python-makefun
 
 %build
-export SETUPTOOLS_SCM_PRETEND_VERSION=%{version}
+# export SETUPTOOLS_SCM_PRETEND_VERSION=%{version}
+export SETUPTOOLS_SCM_PRETEND_VERSION=1.11.3
 %py3_build
 
 %install
