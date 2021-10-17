@@ -45,7 +45,7 @@ Suggests:       python-funcsigs
 Small library to dynamically create python functions.
 
 %prep
-%setup -q -n makefun-%{version}
+%setup -q -n %{name}-%{version}/python-makefun
 
 %build
 SETUPTOOLS_SCM_PRETEND_VERSION=%{version}
