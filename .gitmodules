@@ -1,0 +1,3 @@
+[submodule "python-makefun"]
+	path = python-makefun
+	url = https://github.com/smarie/python-makefun
