@@ -48,6 +48,7 @@ Small library to dynamically create python functions.
 %setup -q -n makefun-%{version}
 
 %build
+SETUPTOOLS_SCM_PRETEND_VERSION=%{version}
 %py3_build
 
 %install
