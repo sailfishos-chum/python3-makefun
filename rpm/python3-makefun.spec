@@ -23,23 +23,15 @@ License:        BSD-3-Clause
 Summary:        Small library to dynamically create python functions
 Url:            https://github.com/smarie/python-makefun
 Group:          Development/Languages/Python
-# Source:         https://files.pythonhosted.org/packages/source/m/makefun/makefun-%{version}.tar.gz
 Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  python-rpm-macros
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-devel
-# BuildRequires:  %{python_module pytest-runner}
-# BuildRequires:  %{python_module setuptools_scm}
 BuildRequires:  python3-setuptools_scm
 BuildRequires:  python3-six
-# SECTION test requirements
-# BuildRequires:  %{python_module pytest}
-# /SECTION
 BuildRequires:  fdupes
 Requires:       python3-six
 Suggests:       python-funcsigs
-
-# %python_subpackages
 
 %description
 Small library to dynamically create python functions.
